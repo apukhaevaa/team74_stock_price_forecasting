@@ -31,4 +31,4 @@
 
 - Пухаева Алина Александровна, выпускница Финансового Университета при Правительстве РФ, WBS. (@pukhaevaalina)
 
-- [Тюлягин Станислав Игоревич](https://github.com/klassnenkiy), выпускник СПбГУЭ (@tyulyagins)
+- [Тюлягин Станислав Игоревич](https://github.com/klassnenkiy), ([@tyulyagins](https://t.me/tyulyagins))
