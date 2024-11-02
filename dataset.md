@@ -16,7 +16,7 @@
 
 **Формат данных:** Онлайн  
 
-**Ссылка на данные:** Онлайн
+**Ссылка на данные:** [Онлайн](https://github.com/apukhaevaa/team74_stock_price_forecasting/blob/main/initial/2_checkpoint.ipynb)
 
 ---
 
