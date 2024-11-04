@@ -2,7 +2,9 @@
 # **Годовой проект: Прогнозирование цен акций**
 # **Чекпоинт №2: EDA**
 
-Ссылка на ноутбук: https://github.com/apukhaevaa/team74_stock_price_forecasting/blob/main/initial/2_checkpoint.ipynb
+Ссылка на ноутбук (все пункты работают): https://github.com/apukhaevaa/team74_stock_price_forecasting/blob/main/initial/2_checkpoint.ipynb
+
+Ссылка на Google Colab (по некоторым причинам, не были реализованы несколько пунктов из-за технических возможностей сервиса): https://colab.research.google.com/drive/11l-SGEYxwtfx9PHvmi4juJOJB2qulcfp#scrollTo=UdItG86l5ZN-
 
 # **Описание задач и целей анализа финансовых временных рядов** #
 
