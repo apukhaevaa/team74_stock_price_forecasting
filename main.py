@@ -1,14 +1,41 @@
 import pandas as pd
 from sqlalchemy import create_engine
-from config import conn_url
-conn_url = "postgresql://neondb_owner:D0WAiyRxLBz2@ep-summer-sky-a5xqmm7o.us-east-2.aws.neon.tech/stock_data?sslmode=require"
-engine = create_engine(conn_url)
+from config import conn_macro_stats, conn_macro_muls, conn_prices
+from tqdm import tqdm
 
-with engine.begin() as conn:
-  data = pd.read_sql(
-      "select * from stock_data",
-      conn
-  )
+def get_data():
 
-if __name__ == "main__":
-    print(data)
+    conns = [conn_macro_stats, conn_macro_muls, conn_prices]
+
+    for _ in tqdm(conns):
+
+        engine = create_engine(_)
+
+        with engine.begin() as conn:
+
+            if _ == conn_macro_stats:
+                macro_stats = pd.read_sql(
+                    "select * from your_table_name",
+                    conn
+                )
+
+            elif _ == conn_macro_muls:
+                macro_muls = pd.read_sql(
+                    "select * from your_table_name",
+                    conn
+                )
+
+            elif _ == conn_prices:
+                bars = pd.read_sql(
+                    "select * from your_table_name",
+                    conn
+                )
+
+    return macro_stats, macro_muls, bars
+
+
+if __name__ == '__main__':
+    macro_stats, macro_muls, bars = get_data()
+    print(macro_stats)
+    print(macro_muls)
+    print(bars)
