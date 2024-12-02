@@ -1,48 +1,21 @@
 from datetime import datetime
 from sqlalchemy import create_engine
 from sqlalchemy.sql import func
-from config import conn_url
-from sqlalchemy import (
-    create_engine,
-    MetaData,
-    Table,
-    Column,
-    String,
-    Integer,
-    Boolean,
-    Date,
-    Time,
-    DateTime,
-    Numeric,
-    BigInteger,
-    ForeignKey,
-)
+from config import conn_macro_stats, conn_macro_muls, conn_prices
+import pandas as pd
+
+macro_muls = pd.read_excel("C:/Users/X/Desktop/multiplicators.xlsx")
+macro_stats = pd.read_excel("C:/Users/X/Desktop/Brazil_Macro.xlsx")
+prices = pd.read_csv("C:/Users/X/Desktop/daily_bars.csv")
 
 
-engine = create_engine(conn_url)
+try:
 
-metadata = MetaData()
+    # Upload the DataFrame to the database table named 'your_table_name'
+    macro_muls.to_sql('your_table_name', create_engine(conn_macro_muls), if_exists='replace', index=False)
+    macro_stats.to_sql('your_table_name', create_engine(conn_macro_stats), if_exists='replace', index=False)
+    prices.to_sql('your_table_name', create_engine(conn_prices), if_exists='replace', index=False)
+    print("Data uploaded successfully.")
 
-prop_funds_today_trades = Table(
-    "stock_data",
-    metadata,
-    Column("id", BigInteger, primary_key=True),
-    Column("Date", DateTime),
-    Column("Adj Close", Numeric(19, 6)),
-    Column("Close", Numeric(19, 6)),
-    Column("High", Numeric(19, 6)),
-    Column("Low", Numeric(19, 6)),
-    Column("Open", Numeric(19, 6)),
-    Column("Volume", Numeric(19, 6)),
-    mysql_engine="InnoDB",
-)
-
-def create_tradedb():
-    """Create database if it doesn't exist and create all tables."""
-    # if not database_exists(conn_url):
-    #     create_database(conn_url)
-
-    metadata.create_all(engine)
-
-if __name__=="__main__":
-    create_tradedb()
+except Exception as e:
+    print(f"An error occurred: {e}")
