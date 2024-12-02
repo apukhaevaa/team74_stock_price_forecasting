@@ -11,7 +11,7 @@ prices = pd.read_csv("C:/Users/X/Desktop/daily_bars.csv")
 
 try:
 
-    # Upload the DataFrame to the database table named 'your_table_name'
+
     macro_muls.to_sql('your_table_name', create_engine(conn_macro_muls), if_exists='replace', index=False)
     macro_stats.to_sql('your_table_name', create_engine(conn_macro_stats), if_exists='replace', index=False)
     prices.to_sql('your_table_name', create_engine(conn_prices), if_exists='replace', index=False)
