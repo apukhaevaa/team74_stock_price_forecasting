@@ -104,6 +104,7 @@
 
 ![image](https://github.com/user-attachments/assets/d24eaf74-0a63-488f-bf5f-13ead0d20b83)
 
+![image](https://github.com/user-attachments/assets/b0af7fe2-cfca-4b11-ad6b-e030b9f4eb72)
 
 ### 1.3 Разделение данных
 - Данные были разделены на тренировочную и тестовую выборки в пропорции 80/20. Это обеспечивает возможность обучения модели на одной части данных и проверки её качества на другой.
