@@ -4,6 +4,8 @@
 
 ## Переход к рынку Бразилии ##
 
+Ссылка на оановной ноутбук: 
+
 Ссылка на первый ноутбук, часть1: https://github.com/apukhaevaa/team74_stock_price_forecasting/blob/main/initial/Exponential_smoothing.ipynb
 
 Ссылка на второй ноутбук, часть 2, 3: https://github.com/apukhaevaa/team74_stock_price_forecasting/blob/main/initial/3_checkpoint.ipynb
