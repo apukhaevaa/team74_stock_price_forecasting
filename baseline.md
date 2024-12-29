@@ -5,6 +5,9 @@
 ## Переход к рынку Бразилии ##
 
 Ссылка на оановной ноутбук: 
+a) https://github.com/apukhaevaa/team74_stock_price_forecasting/blob/prediction_models/initial/arima%20%26%20sarima.ipynb
+
+b) 
 
 Ссылка на первый ноутбук, часть1: https://github.com/apukhaevaa/team74_stock_price_forecasting/blob/main/initial/Exponential_smoothing.ipynb
 
