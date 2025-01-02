@@ -8,7 +8,7 @@
 
 1. [Инфраструктура](#инфраструктура)  
 
-2. [Frontend](#frontend)  
+2. [Frontend](### 2. Frontend)  
 
 3. [Backend](#backend)  
 
