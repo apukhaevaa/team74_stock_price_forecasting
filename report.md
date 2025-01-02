@@ -1,3 +1,53 @@
+
+team74_stock_price_forecasting/
+├── builder/
+│   ├── __init__.py
+│   ├── config.py         
+│   ├── main.py           
+│   ├── port_builder.py
+│   ├── rater.py
+│   ├── rebal_dates.py
+│   ├── stats.py
+│   └── weights.py
+│
+├── data/
+│   ├── daily_bars.csv
+│   ├── all_forecasts_data.csv
+│   ├── arima_params.csv
+│   └── ...
+│
+├── streamlit/
+│   ├── Home.py
+│   ├── pages/
+│   │   ├── ModelManagement.py
+│   │   ├── EDA_daily_bars.py
+│   │   ├── ARIMA_Model_Page.py
+│   │   └── ...
+│   ├── custom_logger.py
+│   └── ...
+│
+├── logs/                 # Создаётся автоматически при логировании (в .gitignore)
+├── .gitignore
+├── requirements.txt      
+├── README.md
+├── LICENSE 
+└── main.py 
+```
+```
+
+### Краткое описание 
+
+- **builder/** — содержит логику построения портфеля, расчётов, вспомогательные модули.
+- **data/** — хранит CSV и другие входные данные.  
+- **streamlit/** — весь фронтенд на Streamlit:
+  - `Home.py` — главная страница,
+  - `pages/` — подстраницы,
+  - `custom_logger.py` — логирование в Streamlit.
+- **requirements.txt** — зависимости для Python (FastAPI, streamlit, pandas и т.п.).
+- **main.py** — сервер.
+
+
+
 # Описание FastAPI приложения: ARIMA + Portfolio
 
 
