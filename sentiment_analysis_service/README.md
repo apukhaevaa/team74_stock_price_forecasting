@@ -64,7 +64,7 @@ Frontend отвечает за отображение интерфейса и в
 
 Link to index.html:
 
-Link to style.css: 
+Link to style.css: https://github.com/apukhaevaa/team74_stock_price_forecasting/blob/sentiment_analysis_service/sentiment_analysis_service/frontend/style.css
 
 
 ```plaintext
@@ -133,14 +133,13 @@ Backend обрабатывает запросы от пользователя и
 
 
 
+```plaintext
 /backend
-
 ├── main.py            # Основной файл с API логикой
-
 ├── sentiment_analysis.py  # Логика анализа сентиментов
-
 ├── requirements.txt   # Список зависимостей Python
 
+```
 
 
 
