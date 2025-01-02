@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    font-family: "Roboto" !important;
+    background: #1a202c;
+    max-width: 1280px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    color: white;
+}
+
+header {
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: end;
+}
+
+header h2 {
+    align-self: center;
+    font-size: 21px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #00c1d4;
+}
+
+header nav {
+    display: flex;
+    gap: 36px;
+}
+
+header a {
+    color: #00c1d4;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+header a:hover {
+    color: #9fa3a7;
+    font-weight: 600;
+}
+
+.about-site {
+    padding: 84px 96px 125px;
+    display: flex;
+    gap: 52px;
+    justify-content: space-between;
+    align-items: center;
+    /* */
+}
+
+.about-site img {
+    width: 513px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px #00c1d4;
+}
+
+h1 {
+    font-size: 72px !important;
+    line-height: 100px;
+    color: white;
+    font-variant: small-caps;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.about-site p {
+    margin: 18px 0px 46px;
+    color: #00c1d4;
+    font-variant: small-caps;
+    line-height: 20px;
+}
+
+button {
+    all: unset;
+    font-size: 18px;
+    border-radius: 88px;
+    padding: 16px 32px;
+    background: #9fa3a7;
+    border: 2px solid #9fa3a7;
+}
+
+button:hover {
+    cursor: pointer;
+    background: black;
+    border-color: white;
+}
+
+
+.show-by-room {
+    padding: 0px 92px;
+}
+
+.show-by-room h2 {
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 43px;
+    color: #00c1d4;
+    font-variant: small-caps;
+
+}
+
+.show-by-room__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+}
+
+.show-by-room__cards img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.show-by-room__cards figcaption {
+    text-align: center;
+    padding: 15px 0px 19px;
+    background: rgb(8, 8, 8);
+    color: #00c1d4;
+}
+
+.show-by-room__cards figure {
+    --b-color: rgb(0, 0, 0);
+    /*цвет границы*/
+    --s-color: black;
+    /*цвет тени*/
+    border-radius: 4px;
+    border: 2px solid var(--b-color);
+    box-shadow: 4px 4px 10px var(--s-color);
+    width: 100%;
+}
+
+.show-by-room__cards figure:hover {
+    transform: scale(1.1);
+}
+
+.floyd-furniture {
+    margin-top: 225px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.floyd-furniture__image img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.floyd-furniture__info {
+    min-width: 448px;
+    width: 448px;
+    background: #9fa3a7;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.floyd-furniture__info h3 {
+    font-weight: 900;
+    font-size: 24px;
+    font-variant: small-caps;
+   
+}
+
+.floyd-furniture__info h2 {
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+    margin: 24px 0px 42px;
+    font-variant: small-caps;
+    color: #080808;
+}
+
+.floyd-furniture__info button {
+    color: black;
+    background: white;
+}
+
+.floyd-furniture__info button:hover {
+    background: black;
+    color: #9fa3a7;
+}
+
+footer {
+    padding: 82px 80px 208px;
+    display: flex;
+    gap: 80px;
+}
+
+.footer-link {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-link h3,
+.footer-social h3 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1.28px;
+    color: #9fa3a7;
+    font-variant: small-caps;
+}
+
+.footer-link a {
+    line-height: 24px;
+    text-decoration: none;
+    color: #00c1d4;
+}
+
+.footer-link a:hover {
+    color: #9fa3a7;
+    cursor: pointer;
+}
+
+.footer-social__links {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 54px;
+}
+
+.footer-social__links a {
+    border: 2px solid white;
+    background: #00c1d4;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+
+.footer-social__links a:hover {
+    background-color: #9fa3a7;
+}
+
+.footer-social__links a:hover img {
+    filter: invert(1);
+}
+
+.footer-social__line {
+    width: 300px;
+    border: 1px solid #00c1d4;
+    margin-top: 60px;
+}
+
+footer {
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.footer-escape {
+    position: absolute;
+    right: 80px;
+    bottom: 80px;
+}
+
+
+.reviews{
+    padding: 130px 96px;
+}
+
+.reviews h2{
+    text-align: center;
+    line-height: 54px;
+    font-size: 48px;
+    margin-bottom: 57px;
+    color: #00c1d4;
+}
+
+.reviews__blocks{
+    display: flex;
+    gap: 32px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.review{
+    width: 396px;
+    min-width: 396px;
+    height: 254px;
+    background: #00c1d4;
+    padding: 34px;
+    box-sizing: border-box;
+    --b-color: #00c1d4;
+    --s-color: #00c1d4;
+    border: 2px solid var(--b-color);
+    box-shadow: -4px -4px 10px var(--s-color);
+    border-radius: 30px;
+    color: black;
+    font-variant: small-caps;
+}
+
+.stars{
+    margin-bottom: 26px;
+    display: flex;
+}
+
+.review h3{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.reviews__arrows{
+    display: flex;
+    gap: 12px;
+    margin: 12px 0px;
+}
+
+.reviews__arrows button{
+    width: 48px;
+    height: 48px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 1224px) {
+    h1 {
+        font-size: 48px;
+        line-height: 54px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .about-site img {
+        /* width: 350px;
+        background-position: left; */
+        display: none;
+    }
+
+    .about-site div {
+        text-align: center;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: unset;
+        padding-top: 20px;
+        gap: 10px;
+    }
+
+    header h2 {
+        order: -1;
+    }
+
+    .show-by-room__cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .floyd-furniture {
+        flex-wrap: wrap-reverse;
+    }
+
+    .floyd-furniture div {
+        min-width: 100% !important;
+    }
+
+    .floyd-furniture__info {
+        padding: 50px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .show-by-room__cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 0px 24px;
+    }
+
+    header nav {
+        gap: 0px;
+        justify-content: space-around !important;
+        width: 100%;
+    }
+
+    .about-site {
+        padding: 84px 24px 125px;
+    }
+
+    .show-by-room {
+        padding: 0px 24px;
+    }
+
+    footer{
+        padding: 82px 24px 208px;
+    }
+
+    .footer-social__links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
