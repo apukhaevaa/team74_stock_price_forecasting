@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Главная</a>
+            <a href="#show-by-room">Услуги</a>
+            <a href="#floyd-furniture">API для торговли</a>
+        </nav>
+        <h2>Price Predict</h2>
+        <nav>
+            <a href="#reviews">Отзывы</a>
+            <a href="#">Поиск</a>
+            <a href="#">Вход с систему</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="about-site">
+            <div>
+                <h1>Анализ тональности текста (сентимент-анализ)</h1>
+                <p>С помощью такого анализа можно изучить массив сообщений и иных данных и определить, как они эмоционально окрашены — позитивно, негативно или нейтрально.</p>
+                <button class="get-started">Подробнее</button>
+            </div>
+            <img src="images/block1.jpg.webp" alt="Описание сайта">
+        </section>
+
+        <section id="sentiment-analysis">
+            <h2>Анализ сентиментов</h2>
+            <div>
+                <input type="text" id="ticker-input" placeholder="Введите тикер компании">
+                <button id="analyze-button">Анализировать</button>
+            </div>
+            <div id="results"></div>
+
+        </section>
+
+
+        <section class="show-by-room" id="show-by-room">
+            <h2>Услуги</h2>
+            <div class="show-by-room__cards">
+                <figure style="--b-color: #635853; --s-color: #CBC6F4">
+                    <img src="images/1.jpg" alt="">
+                    <figcaption>
+                        <p>Сигналы и индикаторы</p>
+                    </figcaption>
+                </figure>
+                <figure style="--b-color: #c2d1ec; --s-color: #E7CB43">
+                    <img src="images/2.jpg" alt="">
+                    <figcaption>
+                        <p>Бэктестинг</p>
+                    </figcaption>
+                </figure>
+                <figure style="--b-color: #242947; --s-color: #A2D4C5">
+                    <img src="images/3.jpg" alt="">
+                    <figcaption>
+                        <p>Модели прогнозирования</p>
+                    </figcaption>
+                </figure>
+                <figure style="--b-color: #8f7572; --s-color: #AF4920">
+                    <img src="images/4.png" alt="">
+                    <figcaption>
+                        <p>Панель управления</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="floyd-furniture" id="floyd-furniture">
+            <div class="floyd-furniture__image">
+                <img src="images/5.png" alt="">
+            </div>
+            <div class="floyd-furniture__info">
+                <h3>API для торговли</h3>
+                <h2>Открытый API для автоматизированной торговли</h2>
+                <button>Подробнее</button>
+            </div>
+        </section>
+
+
+        <section class="reviews" id="reviews">
+            <h2>Отзывы</h2>
+            <div class="reviews__blocks" style="left: 0px">
+                <div class="review">
+                    <div class="stars">
+                    </div>
+                    <h3>Отличный сервис. Рекомендую!.</h3>
+                    <p>Денис, Москва, Россия</p>
+                </div>
+                <div class="review">
+                    <div class="stars">
+                    </div>
+                    <h3>Очень удобный сервис.</h3>
+                    <p>Антонина, Москва, Россия</p>
+                </div>
+                <div class="review">
+                    <div class="stars">
+                    </div>
+                    <h3>Отлично!.</h3>
+                    <p>Владимир, Москва, Россия</p>
+                </div>
+            </div>
+            <div class="reviews__arrows">
+                <button class="arrow-left">⇦</button>
+                <button class="arrow-right">⇨</button>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <footer>
+        <div class="footer-link">
+            <h3>ГЛАВНОЕ</h3>
+            <a href="#">О нас</a>
+            <a href="#">Документация</a>
+            <a href="#">Карьера</a>
+            <a href="#">Контакты</a>
+            
+        </div>
+
+        <div class="footer-link">
+            <h3>УСЛУГИ</h3>
+            <a href="#">Новости</a>
+            <a href="#">Сентименты</a>
+            <a href="#">Готовые стратегии</a>
+            <a href="#">Функционал для трейдеров</a>
+            
+        </div>
+
+        <div class="footer-link">
+            <h3>API</h3>
+            <a href="#">Предоставление ключей</a>
+            <a href="#">Регистрация</a>
+            <a href="#">Личный кабинет</a>
+            <a href="#">Стоимость услуг</a>
+        </div>
+
+        <div class="footer-social">
+            <h3>Мы в социальных сетях</h3>
+            <div class="footer-social__links">
+                <a href="#"><img src="images/social.svg" alt=""></a>
+                <a href="#"><img src="images/social-1.svg" alt=""></a>
+                <a href="#"><img src="images/social-2.svg" alt=""></a>
+                <a href="#"><img src="images/social-3.svg" alt=""></a>
+                <a href="#"><img src="images/social-4.svg" alt=""></a>
+                <a href="#"><img src="images/social-5.svg" alt=""></a>
+            </div>
+            <h3>подпишитесь на нашу рассылку</h3>
+            <div class="footer-social__line"></div>
+        </div>
+    
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
