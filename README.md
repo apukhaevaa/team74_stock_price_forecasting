@@ -39,3 +39,15 @@
 - Маазова Аза Сейталиевна, выпускница ЮФУ (@amaazova)
 
 - Пухаева Алина Александровна, выпускница Финансового Университета при Правительстве РФ, WBS. (@pukhaevaalina)
+
+# Реализация сервиса #
+
+![streamlit-Home-2025-01-02-19-01-95](https://raw.githubusercontent.com/apukhaevaa/team74_stock_price_forecasting/main/gifs/streamlit-Home-2025-01-02-19-01-95.gif)
+
+## GIFs
+
+Все анимации Streamlit (GIF) доступны в отдельной [папке **gifs**](https://github.com/apukhaevaa/team74_stock_price_forecasting/tree/main/gifs).
+
+
+
+
