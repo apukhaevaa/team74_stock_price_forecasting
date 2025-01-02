@@ -12,8 +12,7 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Jupyter notebooks checkpoints
-.ipynb_checkpoints/
-
 # Pytest cache
 .pytest_cache/
+
+logs/
