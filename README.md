@@ -42,28 +42,5 @@
 
 # Реализация сервиса #
 
-![streamlit-Home-2025-01-02-19-01-95](https://raw.githubusercontent.com/apukhaevaa/team74_stock_price_forecasting/main/gifs/streamlit-Home-2025-01-02-19-01-95.gif)
 
-![streamlit-Home-2025-01-02-18-01-96](https://raw.githubusercontent.com/apukhaevaa/team74_stock_price_forecasting/main/gifs/streamlit-Home-2025-01-02-18-01-96.gif)
-
-![streamlit-Home-2025-01-02-18-01-62](https://raw.githubusercontent.com/apukhaevaa/team74_stock_price_forecasting/main/gifs/streamlit-Home-2025-01-02-18-01-62.gif)
-
-![streamlit-Home-2025-01-02-18-01-57.1](https://raw.githubusercontent.com/apukhaevaa/team74_stock_price_forecasting/main/gifs/streamlit-Home-2025-01-02-18-01-57.1.gif)
-
-![streamlit-Home-2025-01-02-18-01-62.1](https://raw.githubusercontent.com/apukhaevaa/team74_stock_price_forecasting/main/gifs/streamlit-Home-2025-01-02-18-01-62.1.gif)
-
-
-
-
-
-
-
-
-![streamlit-Home-2025-01-02-18-01-57](https://raw.githubusercontent.com/apukhaevaa/team74_stock_price_forecasting/main/gifs/streamlit-Home-2025-01-02-18-01-57.gif)
-
-![streamlit-Home-2025-01-02-18-01-51](https://raw.githubusercontent.com/apukhaevaa/team74_stock_price_forecasting/main/gifs/streamlit-Home-2025-01-02-18-01-51.gif)
-
-![streamlit-Home-2025-01-02-18-01-48](https://raw.githubusercontent.com/apukhaevaa/team74_stock_price_forecasting/main/gifs/streamlit-Home-2025-01-02-18-01-48.gif)
-
-![streamlit-Home-2025-01-02-15-01-64](https://raw.githubusercontent.com/apukhaevaa/team74_stock_price_forecasting/main/gifs/streamlit-Home-2025-01-02-15-01-64.gif)
 
