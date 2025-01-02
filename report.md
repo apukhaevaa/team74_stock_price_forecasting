@@ -1,39 +1,6 @@
+<img width="650" alt="Снимок экрана 2025-01-02 в 23 22 31" src="https://github.com/user-attachments/assets/8cc1da7f-bad8-4068-bc00-c86e409c1144" />
 
-team74_stock_price_forecasting/
-├── builder/
-│   ├── __init__.py
-│   ├── config.py         
-│   ├── main.py           
-│   ├── port_builder.py
-│   ├── rater.py
-│   ├── rebal_dates.py
-│   ├── stats.py
-│   └── weights.py
-│
-├── data/
-│   ├── daily_bars.csv
-│   ├── all_forecasts_data.csv
-│   ├── arima_params.csv
-│   └── ...
-│
-├── streamlit/
-│   ├── Home.py
-│   ├── pages/
-│   │   ├── ModelManagement.py
-│   │   ├── EDA_daily_bars.py
-│   │   ├── ARIMA_Model_Page.py
-│   │   └── ...
-│   ├── custom_logger.py
-│   └── ...
-│
-├── logs/                 # Создаётся автоматически при логировании (в .gitignore)
-├── .gitignore
-├── requirements.txt      
-├── README.md
-├── LICENSE 
-└── main.py 
-```
-```
+
 
 ### Краткое описание 
 
