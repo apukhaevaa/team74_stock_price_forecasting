@@ -67,7 +67,7 @@ Link to index.html:
 Link to style.css: 
 
 
-
+---
 /frontend
 ├── css/
 │   ├── reset.css      # Сброс стилей для унификации отображения
@@ -98,8 +98,6 @@ Link to style.css:
 
 
 ![Описание изображения](./images/1.PNG)
-
----
 
 
 
@@ -142,10 +140,6 @@ Backend обрабатывает запросы от пользователя и
 ├── requirements.txt   # Список зависимостей Python
 
 ```
-
-
-
----
 
 
 
